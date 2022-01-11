@@ -8,6 +8,9 @@ from matplotlib import pyplot as plt
 plt.rcParams['font.sans-serif']=['SimHei'] #用来正常显示中文标签
 plt.rcParams['axes.unicode_minus']=False #用来正常显示负号
 
+'''
+非原创，在别人的代码上做了修改，自己学习之用，如有雷同，敬请见谅，如有错误，请指正
+'''
 def gen_secid(rawcode: str)-> str:
     '''
     生成东方财富专用的secid
